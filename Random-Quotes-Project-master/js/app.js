@@ -42,9 +42,9 @@ const randomQuoteGenerator = {
   },
 };
 
-let handlers = {
+const handlers = {
   buttonEventListener () {
-   let button = document.getElementById("generate-btn");
+   const button = document.getElementById("generate-btn");
 
    button.addEventListener('click', function () {
     randomQuoteGenerator.postQuote();
